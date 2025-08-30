@@ -22,8 +22,8 @@ Welcome to my Portfolio Website! This website showcases all the projects I compl
 
 ## Live Portfolio Website
 
-<a href="https://prabhbhullar97.github.io/portfolio-website/>You can view my live portfolio website here:</a>  
-[https://prabhhullar97.github.io/portfolio-website/](https://prabhhullar97.github.io/portfolio-website/)
+<a href="https://prabhbhullar97.github.io/portfolio-website"/>You can view my live portfolio website here:</a>  
+
 
 ---
 
