@@ -1,8 +1,7 @@
-// 1. window.alert()
-let alertMessage = "Hello! This is a popup alert using window.alert()";
-window.alert(alertMessage);
+// 1. Popup alert
+window.alert("Hello! This is a popup alert");
 
-// 2. Variable Assignment with document.getElementById()
+// 2. Variable Assignment
 let greeting = "Hello! This message comes from a JS variable";
 document.getElementById("variableMessage").innerHTML = greeting;
 
@@ -10,6 +9,5 @@ document.getElementById("variableMessage").innerHTML = greeting;
 let escapeString = "He said, \"It's a beautiful day!\"";
 document.getElementById("escapeMessage").innerHTML = escapeString;
 
-// 4. Console log (optional, for testing)
-console.log("Portfolio JS loaded successfully");
-
+// 4. Console log (optional)
+console.log("JS is running correctly");
