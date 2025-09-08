@@ -1,0 +1,5 @@
+// Assign a variable
+let greeting = "Hello! This is a variable string.";
+
+// Display the variable
+document.write(greeting);

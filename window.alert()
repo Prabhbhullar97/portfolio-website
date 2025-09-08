@@ -1,0 +1,2 @@
+window.alert()
+window.alert("Hello! This alert is from window.alert()");
