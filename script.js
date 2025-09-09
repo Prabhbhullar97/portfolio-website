@@ -1,23 +1,10 @@
-// Get elements
-const myImage = document.getElementById("myImage");
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightboxImg");
-const closeBtn = document.getElementById("closeBtn");
+// Popup alert when page loads
+window.alert("Hello! Welcome to my portfolio");
 
-// When the small image is clicked
-myImage.addEventListener("click", function() {
-    lightbox.style.display = "flex";
-    lightboxImg.src = myImage.src; // show the clicked image in the lightbox
-});
+// Display a message from a variable
+let greeting = "This message comes from a JavaScript variable!";
+document.getElementById("variableMessage").innerHTML = greeting;
 
-// When the close button is clicked
-closeBtn.addEventListener("click", function() {
-    lightbox.style.display = "none";
-});
-
-// Also close lightbox if you click outside the image
-lightbox.addEventListener("click", function(e) {
-    if (e.target !== lightboxImg) {
-        lightbox.style.display = "none";
-    }
-});
+// Display a string with escape characters
+let escapeString = "He said, \"It's a beautiful day!\"";
+document.getElementById("escapeMessage").innerHTML = escapeString;
