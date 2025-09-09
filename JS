@@ -1,13 +1,9 @@
-// Popup alert
 window.alert("Hello! This is a popup alert");
 
-// Variable Assignment — displayed inside the page
 let greeting = "Hello! This message comes from a JS variable";
 document.getElementById("variableMessage").innerHTML = greeting;
 
-// Escape Character Assignment — displayed inside the page
 let escapeString = "He said, \"It's a beautiful day!\"";
 document.getElementById("escapeMessage").innerHTML = escapeString;
 
-// Console log for debugging
 console.log("JS is running correctly");
